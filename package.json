@@ -1,0 +1,30 @@
+{
+    "name": "shades-of-green",
+    "displayName": "Shades of Green",
+    "description": "dark green theme for vs code.",
+    "publisher": "bakrimoharram",
+    "author": {
+        "name": "Bakri Moharram",
+        "email": "bakri_moharram@hotmail.com"
+    },
+    "repository": {
+        "url": "https://github.com/bakrimoharram/shades-of-green.git",
+        "type": "git"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Shades-of-Green",
+                "uiTheme": "vs-dark",
+                "path": "./themes/shades-of-green.json"
+            }
+        ]
+    }
+}
